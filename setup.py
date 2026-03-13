@@ -24,7 +24,7 @@ install_requires = [
     's3fs>=0.2.2,<0.5',
     'mlblocks>=0.6.2,<0.7',
     'ml-stars>=0.2.1.dev0,<0.4',
-    'scikit-learn>=0.22.1,<2',
+    'scikit-learn>=0.22.1,<1.8',
     'scipy<1.14',
     'tabulate>=0.8.3,<0.9',
     'pyts>=0.11,<0.14',
@@ -47,6 +47,9 @@ pretrained_requires = [
     #timesfm
     "timesfm[torch]>=1.2.0,<1.5;python_version>='3.11'",
     "jax;python_version>='3.11'",
+
+    #chronos2
+    'chronos-forecasting>=2.2.0,<2.3.0',
 
     'wrapt>=1.14,<1.15',
 ]
